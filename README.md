@@ -65,5 +65,5 @@ Le projet est structuré pour bien séparer la logique métier du rendu graphiqu
 
 - **Séparation des responsabilités** : La classe `Game` est autonome et découplée de l'interface graphique (DOM). Elle peut être testée ou réutilisée indépendamment.
 - **Modèle de données** : Tableau plat de 42 cellules avec projection bi-directionnelle `(row, col) <-> index` pour simplifier les calculs de voisinage.
-- **Algorithme de victoire vectoriel** : Vérification des alignements par balayage directionnel (`[deltaRow, deltaCol]`), garantissant un code concis et sans duplication.
-- **Style CSS Grid & Aspect Ratio** : Garantit une grille responsive et des cellules parfaitement carrées.
+- **Algorithme de victoire vectoriel** : Vérification des alignements par balayage directionnel (`[deltaRow, deltaCol]`).
+- **Style CSS Grid & Aspect Ratio** : Garantit une grille responsive.
